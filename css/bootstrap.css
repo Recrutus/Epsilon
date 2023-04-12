@@ -10220,7 +10220,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+	color: #1c2d43 !important;
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 500;
+	letter-spacing: 0.024em;
 }
 
 .text-black-50 {
