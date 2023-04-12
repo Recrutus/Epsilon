@@ -72,3 +72,13 @@ img.logo {
 	background-position-x: 215px;
 	background-position-y: center;
 }
+
+/* Footer */
+
+.wrapper {
+	min-height: calc(100vh - 90px);
+}
+
+footer {
+	height: 90px;
+}
