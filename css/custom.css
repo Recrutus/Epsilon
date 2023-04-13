@@ -93,6 +93,10 @@ img.logo {
 	left: 50%;
 }
 
+.show .active a.nav-link:before {
+	visibility: hidden;
+}
+
 nav .form-control {
 	background-image: url(/img/svg/search.svg);
 	background-repeat: no-repeat;
