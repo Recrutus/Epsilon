@@ -167,7 +167,7 @@ nav .form-control {
 	text-transform: uppercase;
 	color: #ffffff;
 	margin: 0;
-	padding: 10px;
+	padding: 13px 13px 10px;
 }
 
 @media (max-width: 1199px) {
@@ -237,6 +237,14 @@ nav .form-control {
 	border-color: transparent transparent transparent #f22929;
 	position: absolute;
 	right: 4%;
+}
+
+/* Main Content */
+
+.main-content {
+	/*background: url(/img/svg/background_2-01.svg) no-repeat top right;*/
+	background: url(/img/background_2-01.png) no-repeat top right;
+	height: 550px;
 }
 
 /* Bottom block */
