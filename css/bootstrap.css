@@ -7244,16 +7244,16 @@ a.close.disabled {
 .carousel-indicators {
 	position: absolute;
 	right: 0;
-	bottom: 0;
+	bottom: 2px;
 	left: 0;
 	z-index: 15;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: center;
-	justify-content: center;
+	justify-content: start;
 	padding-left: 0;
-	margin-right: 15%;
-	margin-left: 15%;
+	margin-right: 0%;
+	margin-left: 22%;
 	list-style: none;
 }
 
@@ -7261,8 +7261,8 @@ a.close.disabled {
 	box-sizing: content-box;
 	-ms-flex: 0 1 auto;
 	flex: 0 1 auto;
-	width: 30px;
-	height: 3px;
+	width: 13px;
+	height: 13px;
 	margin-right: 3px;
 	margin-left: 3px;
 	text-indent: -999px;

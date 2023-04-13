@@ -12,7 +12,7 @@
 /* Header */
 
 header {
-	background: url(/img/header_bg.png) no-repeat top right;
+	background: url(/img/svg/background_1-01.svg) no-repeat top right;
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
@@ -113,8 +113,12 @@ nav .form-control {
 
 /* Slider */
 
-.slider {
+.product-slider {
 	background: url(/img/sloy_1_34.png) #f3f6fa no-repeat top center;
+}
+
+.carousel-caption {
+	padding-bottom: 30px;
 }
 
 .carousel-caption h2 {
@@ -166,6 +170,74 @@ nav .form-control {
 	padding: 10px;
 }
 
+@media (max-width: 1199px) {
+	.carousel-caption h2 {
+		font-size: 16px;
+	}
+
+	.carousel-caption p {
+		font-size: 16px;
+	}
+
+	.carousel-caption {
+		bottom: 15px;
+		padding-bottom: 15px;
+	}
+
+	.carousel-indicators {
+		bottom: -8px;
+	}
+
+	.partners img {
+		max-width: 80px;
+		max-height: 50px;
+	}
+}
+
+/* Product Left Menu*/
+
+.product-menu li.active {
+	background-color: #fff;
+}
+
+.product-menu li.active a{
+	font-weight: 700;
+}
+
+.product-menu li {
+	padding: 17px 10px;
+	border-bottom: 1px solid #d4dae2;
+}
+
+.product-menu li a {
+	font-size: 1.05em;
+	line-height: 1.2;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.product-menu li:hover a {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.product-menu li:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.product-menu li:after{
+	display: inline-block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0.5em 0.7em 0.5em;
+	border-color: transparent transparent transparent #f22929;
+	position: absolute;
+	right: 4%;
+}
 
 /* Bottom block */
 
