@@ -114,7 +114,56 @@ nav .form-control {
 /* Slider */
 
 .slider {
-	background-color: #f3f6fa;
+	background: url(/img/sloy_1_34.png) #f3f6fa no-repeat top center;
+}
+
+.carousel-caption h2 {
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.024em;
+	color: #ffffff;
+}
+
+.carousel-caption p {
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 400;
+	text-transform: none;
+	letter-spacing: 0.024em;
+	color: #ffffff;
+}
+
+.partners {
+	background-color: #ffffff;
+	box-shadow: -4px 2px 7px 0px rgb(224 229 235 / 46%);
+	border-radius: 10px;
+	padding: 31px 30px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.partners img {
+	width: auto;
+}
+
+.tab-partners {
+	background-color: #718aa8;
+	border-radius: 10px 10px 0px 0px;
+	max-width: 200px;
+	text-align: center;
+	margin-left: 45px;
+}
+
+.tab-partners h3 {
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 0;
+	padding: 10px;
 }
 
 
