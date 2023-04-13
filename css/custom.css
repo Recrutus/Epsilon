@@ -244,7 +244,32 @@ nav .form-control {
 .main-content {
 	/*background: url(../img/svg/background_2-01.svg) no-repeat top right;*/
 	background: url(../img/background_2-01.png) no-repeat top right;
-	height: 550px;
+}
+
+p.red-deco {
+	border-left: 6px solid #f22929;
+	padding-left: 20px;
+	font-weight: 700;
+	margin-bottom: 2.5rem!important;
+}
+
+.home-page p {
+	margin-bottom: 1.7rem;
+}
+
+.base-red {
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #f22929;
+}
+
+.strengths p {
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: none;
+	color: #000000;
 }
 
 /* Bottom block */
