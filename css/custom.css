@@ -338,6 +338,21 @@ span.all-items a:hover {
 	color: #fff;
 }
 
+p.card-text {
+	font-size: 12px;
+	line-height: 1.2;
+	font-weight: 500;
+	color: #000000;
+}
+
+.text-dated {
+	font-size: 11px;
+	line-height: 1.2;
+	font-weight: 600;
+	color: #124073;
+	font-style: italic;
+}
+
 .carousel-control-prev {
 		justify-content: start;
 }
