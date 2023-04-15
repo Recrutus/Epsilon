@@ -343,6 +343,7 @@ p.card-text {
 	line-height: 1.2;
 	font-weight: 500;
 	color: #000000;
+	margin-bottom: 0.5rem;
 }
 
 .text-dated {
@@ -359,6 +360,14 @@ p.card-text {
 
 .carousel-control-next {
 	justify-content: end;
+}
+
+.card-body-img {
+	padding: 0 0.4rem 0.75rem 0.75rem;
+}
+
+.news .card-body {
+	padding: 0.75rem 0.75rem 0.95rem 0.4rem;
 }
 
 /* Subscribe */
