@@ -3642,8 +3642,8 @@ input[type="button"].btn-block {
 	display: none;
 	float: left;
 	min-width: 10rem;
-	padding: 0 0 0.3rem;
-	margin: 0.6rem 0 0;
+	padding: 0;
+	/*margin: 0.6rem 0 0;*/
 	font-size: 1rem;
 	color: #212529;
 	text-align: left;
@@ -3651,7 +3651,7 @@ input[type="button"].btn-block {
 	background-color: #fff;
 	background-clip: padding-box;
 	border: 1px solid rgba(0, 0, 0, 0.15);
-	border-radius: 0 0 0.625rem 0.625rem;
+	/*border-radius: 0 0 0.625rem 0.625rem;*/
 }
 
 .dropdown-menu-left {
@@ -3816,11 +3816,12 @@ input[type="button"].btn-block {
 .dropdown-item {
 	display: block;
 	width: 100%;
-	padding: 0.8rem 1.3rem;
+	padding: 0.8rem 1.2rem;
 	clear: both;
 	line-height: 1.1;
+	font-size: 14px;
 	font-weight: 500;
-	color: #212529;
+	color: #000;
 	text-align: inherit;
 	white-space: nowrap;
 	background-color: transparent;
@@ -3828,8 +3829,14 @@ input[type="button"].btn-block {
 	border-bottom: 1px solid #d4dae2;
 }
 
-.dropdown-item:last-child {
-	border: 0;
+@media only screen and (min-width: 992px) {
+	.dropdown-item:last-child {
+		border: 0;
+		margin-bottom: 0.5rem;
+	}
+	.dropdown-item:first-child {
+		margin-top: 0.5rem;
+	}
 }
 
 .dropdown-item:hover,
@@ -3841,9 +3848,9 @@ input[type="button"].btn-block {
 
 .dropdown-item.active,
 .dropdown-item:active {
-	color: #fff;
+	color: #16181b;
 	text-decoration: none;
-	background-color: #007bff;
+	background-color: #e9ecef;
 }
 
 .dropdown-item.disabled,
@@ -5039,6 +5046,8 @@ input[type="button"].btn-block {
 	.navbar-expand-lg .navbar-nav .dropdown-menu {
 		position: absolute;
 		box-shadow: 1px 2px 3px 0px rgb(0 0 0 / 17%);
+		border-radius: 0 0 0.625rem 0.625rem;
+		padding: 0 6px;
 	}
 
 	.navbar-expand-lg .navbar-nav .nav-link {
