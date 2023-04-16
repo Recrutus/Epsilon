@@ -153,7 +153,7 @@
 		</section>
 
 		<!-- Main Block -->
-		<main role="main" class="main-content py-5">
+		<main class="main-content py-5">
 			<div class="container">
 				<div class="row home-page">
 					<div class="col-lg-6 col-xl-7">
@@ -478,7 +478,8 @@
 		<!-- Map block -->
 		<div class="map-eps">
 			<div style="width: auto;height: 450px" id="mapq8001z02"></div>
-			<script>function YandexReadyHandlerq8001z02() {
+			<script>
+			function YandexReadyHandlerq8001z02() {
 					var map = new ymaps.Map("mapq8001z02", {
 						center: [59.9502170493248, 30.299697689967136],
 						zoom: 18,
@@ -503,9 +504,9 @@
 						preset: "islands#redDotIcon",
 					})
 					); return map;
-				}</script>
-			<script src="//api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru&onload=YandexReadyHandlerq8001z02"
-				type="text/javascript"></script>
+				}
+				</script>
+			<script src="//api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru&onload=YandexReadyHandlerq8001z02"></script>
 		</div>
 
 		<!-- Bottom block --> 
