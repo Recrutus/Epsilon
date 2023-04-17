@@ -3641,7 +3641,7 @@ input[type="button"].btn-block {
 	z-index: 1000;
 	display: none;
 	float: left;
-	min-width: 10rem;
+	min-width: 215px;
 	padding: 0;
 	/*margin: 0.6rem 0 0;*/
 	font-size: 1rem;
@@ -3823,7 +3823,7 @@ input[type="button"].btn-block {
 	font-weight: 500;
 	color: #000;
 	text-align: inherit;
-	white-space: nowrap;
+	white-space: inherit;
 	background-color: transparent;
 	border: 0;
 	border-bottom: 1px solid #d4dae2;
