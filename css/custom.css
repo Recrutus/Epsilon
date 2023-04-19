@@ -278,7 +278,19 @@ nav .form-control {
 	border-width: 0.5em 0.7em 0.5em;
 	border-color: transparent transparent transparent #f22929;
 	position: absolute;
-	right: 4%;
+	right: 0;
+}
+
+.product-menu .nav-link.parent.active:after {
+	display: inline-block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0.5em 0.7em 0.5em;
+	border-color: transparent transparent transparent #3d6fae;
+	position: absolute;
+	right: 0;
 }
 
 .product-menu .dropdown-menu {
@@ -330,7 +342,7 @@ nav .form-control {
 	line-height: 1.2;
 	font-weight: 500;
 	color: #000000;
-	padding: 10px 0;
+	padding: 12px 0;
 	display: inherit;
 }
 
