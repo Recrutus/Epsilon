@@ -12,7 +12,9 @@
 /* Header */
 
 header {
-	background: url(../img/header_bg.png) no-repeat top right;
+	/*background: url(../img/header_bg.png) no-repeat top right;*/
+	background: url(../img/svg/background_1-01.svg) no-repeat top right;
+	background-size: 1920px;
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
@@ -349,8 +351,9 @@ nav .form-control {
 /* Main Content */
 
 .main-content {
-	/*background: url(../img/svg/background_2-01.svg) no-repeat top right;*/
-	background: url(../img/background_2-01.png) no-repeat top right;
+	/*background: url(../img/background_2-01.png) no-repeat top right;*/
+	background: url(../img/svg/background_2-01.svg) no-repeat top right;
+	background-size: 1430px;
 }
 
 p.red-deco {
@@ -377,6 +380,12 @@ p.red-deco {
 	font-weight: 500;
 	text-transform: none;
 	color: #000000;
+}
+
+.strengths img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
 }
 
 span.bg-icon {
@@ -493,7 +502,9 @@ p.card-text {
 
 .subscribe {
 	background-color: #355176;
-	background-image: url(../img/background_3-01.png);
+	/*background-image: url(../img/background_3-01.png);*/
+	background-image: url(../img/svg/background_3-01.svg);
+	background-size: 1920px;
 }
 
 .subscribe-title {
