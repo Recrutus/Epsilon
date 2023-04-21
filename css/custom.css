@@ -9,6 +9,17 @@
 	color: #3d6fae;
 }
 
+a.link {
+	font-size: 0.9375rem;
+	color: #3d6fae;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+a.link:hover{
+	text-decoration: none;
+}
+
 /* Header */
 
 header {
@@ -372,6 +383,9 @@ nav .form-control {
 .blue-deco {
 	font-weight: 700;
 	color: #3d6fae;
+	font-size: 0.9375rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 ul.red-sqr {
@@ -390,15 +404,15 @@ ul.red-sqr li {
 }
 
 li.breadcrumb-item a {
-	font-size: 14px;
+	font-size: 13px;
 	color: #3d6fae;
 	font-weight: 500;
 }
 
 li.breadcrumb-item.active {
-	font-weight: 600;
+	font-weight: 500;
 	color: #060606;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .home-page p {

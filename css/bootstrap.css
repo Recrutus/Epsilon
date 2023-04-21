@@ -167,7 +167,8 @@ sup {
 }
 
 a {
-	color: #007bff;
+	color: #3d6fae;
+	font-weight: 600;
 	text-decoration: none;
 	background-color: transparent;
 }
