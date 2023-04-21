@@ -5575,10 +5575,10 @@ input[type="button"].btn-block {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	padding: 0.75rem 1rem;
+	padding: 0.85rem 0 1.5rem;
 	margin-bottom: 1rem;
 	list-style: none;
-	background-color: #e9ecef;
+	background-color: transparent;
 	border-radius: 0.25rem;
 }
 
