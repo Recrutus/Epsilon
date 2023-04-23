@@ -374,6 +374,10 @@ nav .form-control {
 	padding-bottom: 70px;
 }
 
+.main-showcase {
+	background: url(../img/sloy_1_34.png) #fff no-repeat top center;
+}
+
 .red-deco {
 	border-left: 6px solid #f22929;
 	padding-left: 20px;
