@@ -249,7 +249,7 @@ nav .form-control {
 }
 
 .product-menu .dropright-item {
-	padding: 18px 21px 17px 12px;
+	padding: 16px 21px 15px 12px;
 	border-bottom: 1px solid #d4dae2;
 	border-top: 1px solid transparent;
 }
@@ -292,6 +292,7 @@ nav .form-control {
 	border-color: transparent transparent transparent #f22929;
 	position: absolute;
 	right: 0;
+	top: 20px;
 }
 
 .product-menu .nav-link.parent.active:after {
