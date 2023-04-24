@@ -576,7 +576,7 @@ p.card-text {
 
 .news-block .card:hover {
 	box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
-	/*box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;*/
+	overflow: hidden;
 }
 
 .news-block a:hover {
@@ -588,6 +588,9 @@ p.card-text {
 	max-height: 221px;
 	object-fit: cover;
 	border-radius: 0.25rem 0.25rem 0 0;
+}
+.news-block .card:hover img {
+	opacity: 0.9;
 }
 
 /* Subscribe */
