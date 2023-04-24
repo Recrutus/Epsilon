@@ -126,7 +126,7 @@ nav .form-control {
 @media only screen and (min-width: 992px) {
 	.dropdown:hover .dropdown-menu, .dropright:hover .dropdown-menu {
 		display: block;
-		margin-top: 0;
+		margin: -1px 0 0 0;
 	}
 }
 @media only screen and (max-width: 991px) {
@@ -249,8 +249,9 @@ nav .form-control {
 }
 
 .product-menu .dropright-item {
-	padding: 17px 10px;
+	padding: 18px 21px 17px 12px;
 	border-bottom: 1px solid #d4dae2;
+	border-top: 1px solid transparent;
 }
 
 .product-menu .dropright-item > a {
@@ -309,8 +310,11 @@ nav .form-control {
 	z-index: 100;
 	width: 506px;
 	background-color: #fff;
-	border: 0;
-	margin: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	border-bottom:0;
+	border-left: 0;
+	border-right: 0;
+	margin: -1px 0 0 0;
 	box-shadow: 1px 2px 3px 0px rgb(0 0 0 / 21%);
 	border-radius: 0 12px 12px 0;
 	-webkit-border-radius: 0 12px 12px 0;
@@ -572,6 +576,10 @@ p.card-text {
 
 .news-block .text-dated {
 	font-size: 12.4px;
+}
+
+.news-block .card {
+	height: calc(100% - 1rem);
 }
 
 .news-block .card:hover {
