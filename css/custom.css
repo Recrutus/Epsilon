@@ -376,6 +376,22 @@ nav .form-control {
 
 .main-showcase {
 	background: url(../img/sloy_1_34.png) #fff no-repeat top center;
+	margin-bottom: 30px;
+}
+
+.main-showcase img {
+	border: 20px solid #f3f6fa;
+	max-width: 100%;
+}
+
+.h-common{
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .red-deco {
