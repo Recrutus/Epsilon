@@ -565,9 +565,29 @@ p.card-text {
 	font-weight: 600;
 }
 
+.news-block .card-title {
+	font-size: 14.5px;
+	line-height: 1.3;
+}
+
+.news-block .text-dated {
+	font-size: 12.4px;
+}
+
+.news-block .card:hover {
+	box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+	/*box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;*/
+}
+
+.news-block a:hover {
+	text-decoration: none;
+}
+
 .news-block img {
-	max-width: 100%;
-	max-height: 220px;
+	width: 100%;
+	max-height: 221px;
+	object-fit: cover;
+	border-radius: 0.25rem 0.25rem 0 0;
 }
 
 /* Subscribe */
