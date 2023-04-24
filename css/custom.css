@@ -589,8 +589,13 @@ p.card-text {
 	object-fit: cover;
 	border-radius: 0.25rem 0.25rem 0 0;
 }
+
 .news-block .card:hover img {
 	opacity: 0.9;
+}
+
+.news-block .col-lg-6 {
+	margin-bottom: 5px;
 }
 
 /* Subscribe */
