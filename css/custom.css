@@ -558,6 +558,13 @@ p.card-text {
 	padding: 0.75rem 0.75rem 0.95rem 0.4rem;
 }
 
+.card-link {
+	font-family: Arial;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 600;
+}
+
 /* Subscribe */
 
 .subscribe {
