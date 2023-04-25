@@ -397,6 +397,16 @@ nav .form-control {
 	max-width: 100%;
 }
 
+td a img {
+	border: 0 !important;
+	width: 22px;
+}
+
+.table-bordered td {
+	font-weight: 500;
+	font-size: 13.8px;
+}
+
 .h-common{
 	font-size: 14px;
 	line-height: 20px;
