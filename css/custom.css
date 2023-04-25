@@ -405,6 +405,7 @@ td a img {
 .table-bordered td {
 	font-weight: 500;
 	font-size: 13.8px;
+	text-align: center;
 }
 
 .h-common{
