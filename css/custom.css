@@ -511,6 +511,21 @@ a.link-collapse:hover {
 ul.red-round ul li {
 	background-image: none;
 	padding: 0;
+	font-size: 12.5px;
+}
+
+a.collapse-readmore {
+	border-bottom: 1px dashed;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-weight: 500;
+	color: #000;
+	font-style: italic;
+}
+
+a.collapse-readmore:hover {
+	text-decoration: none;
 }
 
 /* News Block */
