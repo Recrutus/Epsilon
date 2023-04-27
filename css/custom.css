@@ -500,6 +500,19 @@ ul.red-round li {
 	font-size: 14px;
 }
 
+a.link-collapse {
+	border-bottom: 1px dashed;
+}
+
+a.link-collapse:hover {
+	text-decoration: none;
+}
+
+ul.red-round ul li {
+	background-image: none;
+	padding: 0;
+}
+
 /* News Block */
 
 .news {
