@@ -528,6 +528,11 @@ a.collapse-readmore:hover {
 	text-decoration: none;
 }
 
+.category img {
+	width: 42px;
+	height: auto;
+}
+
 /* News Block */
 
 .news {
