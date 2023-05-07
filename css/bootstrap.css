@@ -3822,7 +3822,7 @@ input[type="button"].btn-block {
 .dropdown-item {
 	display: block;
 	width: 100%;
-	padding: 0.8rem 1.2rem;
+	padding: 0.8rem 0.8rem;
 	clear: both;
 	line-height: 1.1;
 	font-size: 14px;
@@ -4804,7 +4804,11 @@ input[type="button"].btn-block {
 	align-items: center;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	padding: 0.688rem 1rem;
+	/*padding: 0.688rem 1rem;*/
+}
+
+.navbar li.nav-item {
+	padding: 0.688rem 0;
 }
 
 .navbar .container,

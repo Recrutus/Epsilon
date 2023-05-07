@@ -31,10 +31,16 @@ a.link:hover{
 /* Header */
 
 header {
-	background: url(../img/svg/background_1-01.svg) no-repeat top right;
-	background-size: 1920px;
+	background: url(../img/svg/background_1-01.svg) no-repeat top center;
+	background-size: 100%;
 	padding-top: 50px;
 	padding-bottom: 30px;
+}
+
+@media (max-width: 1199px) {
+	header{
+		background-size: 1920px;
+	}
 }
 
 img.logo {
@@ -134,7 +140,7 @@ nav .form-control {
 @media only screen and (min-width: 992px) {
 	.dropdown:hover .dropdown-menu, .dropright:hover .dropdown-menu {
 		display: block;
-		margin: -1px 0 0 0;
+		/*margin: -1px 0 0 0;*/
 	}
 }
 @media only screen and (max-width: 991px) {
@@ -147,6 +153,7 @@ nav .form-control {
 
 .product-slider {
 	background: url(../img/sloy_1_34.png) #f3f6fa no-repeat top center;
+	background-repeat: repeat-x;
 }
 
 .carousel-caption {
@@ -387,6 +394,16 @@ nav .form-control {
 	padding-bottom: 70px;
 }
 
+.inner-content-right img {
+	margin-bottom: 20px;
+	border: 1px solid #dee2e6 !important;
+	padding: 2px;
+}
+
+.inner-content-right img.float-left {
+	margin-right: 20px;
+}
+
 .main-showcase {
 	background: url(../img/sloy_1_34.png) #fff no-repeat top center;
 	margin-bottom: 30px;
@@ -433,9 +450,10 @@ td a img {
 }
 
 ul.red-sqr {
-	margin: 2rem 0 1.5rem;
+	margin: 1rem 0;
 	padding-left: 0;
 	list-style-type: none;
+	display: inline-block;
 }
 
 ul.red-sqr li {
@@ -661,7 +679,7 @@ p.card-text {
 }
 
 .news-block img {
-	width: 100%;
+	max-width: 100%;
 	max-height: 221px;
 	object-fit: cover;
 	border-radius: 0.25rem 0.25rem 0 0;
