@@ -11,6 +11,7 @@
 	<title>Epsilon</title>
 </head>
 <body class="d-flex flex-column h-100">
+	<a name="totop"></a>
 	<div class="wrapper">
 
 		<!-- Header Block -->
@@ -778,6 +779,22 @@
 			</div>
 		</div>
 	</div>
+
+	<a id="btnScroll" href="#totop">
+		<img src="img/svg/arrow-up-circle.svg" alt="">
+	</a>
+	<script>
+		window.onscroll = function () {
+			scrollFunction();
+		};
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("btnScroll").style.display = "block";
+			} else {
+				document.getElementById("btnScroll").style.display = "none";
+			}
+		}
+	</script>
 
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

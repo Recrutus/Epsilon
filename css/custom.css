@@ -1,5 +1,8 @@
 /* Custom page CSS
 -------------------------------------------------- */
+html {
+	scroll-behavior: smooth;
+}
 
 a:-webkit-any-link:focus-visible {
 	outline-offset: 0px;
@@ -683,6 +686,8 @@ p.card-text {
 	max-height: 221px;
 	object-fit: cover;
 	border-radius: 0.25rem 0.25rem 0 0;
+	padding: 0;
+	border: none !important;
 }
 
 .news-block .card:hover img {
@@ -777,4 +782,17 @@ ul.eps-list li a:hover {
 
 footer {
 	height: 90px;
+}
+
+#btnScroll {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	cursor: pointer;
+}
+
+#btnScroll img {
+	width: 52px;
 }
