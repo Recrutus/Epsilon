@@ -7222,6 +7222,13 @@ a.close.disabled {
 	transition: opacity 0.15s ease;
 }
 
+@media (min-width: 576px){
+	.carousel-control-prev,
+	.carousel-control-next {
+		width: 4%;
+	}
+}
+
 @media (prefers-reduced-motion: reduce) {
 
 	.carousel-control-prev,
