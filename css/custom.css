@@ -18,11 +18,13 @@ a:-webkit-any-link:focus-visible {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #3d6fae;
+	word-break: break-word;
 }
 
 .base.black {
 	color: #000000;
 	font-size: 24px;
+	word-break: break-word;
 }
 
 a.link {
@@ -154,6 +156,31 @@ nav .form-control {
 @media only screen and (max-width: 991px) {
 	.dropdown-toggle::after {
 		display: none;
+	}
+}
+
+@media (max-width: 992px) {
+	nav button.navbar-toggler {
+		margin: 0.688rem 0 0.688rem 0.688rem;
+	}
+
+	nav.navbar .show li.nav-item {
+		padding: 0 0.688rem;
+	}
+
+	nav.navbar .collapsing li.nav-item {
+		padding: 0 0.688rem;
+	}
+
+	nav .active a.nav-link:before {
+		display: none;
+	}
+
+	nav .active a.nav-link {
+		position: unset;
+	}
+	nav ul.navbar-nav {
+		margin-bottom: 20px;
 	}
 }
 
@@ -536,6 +563,7 @@ ul.red-round li {
 
 ul.red-round li.link-collapse a {
 	text-decoration: none;
+	white-space: pre-line;
 }
 
 ul.red-round li.link-collapse a:after {
@@ -565,9 +593,13 @@ ul.red-round .collapsing {
 	-o-transition: 0s;
 }
 
-/*a.link-collapse {
-	border-bottom: 1px dashed;
-}*/
+ul.red-round .body-readmore {
+	transition: 0.5s!important;
+	-webkit-transition: 0.5s!important;
+	-moz-transition: 0.5s!important;
+	-ms-transition: 0.5s!important;
+	-o-transition: 0.5s!important;
+}
 
 ul.red-round a.link-collapse:hover {
 	text-decoration: none;
@@ -634,33 +666,6 @@ ul.red-round li.link-collapse a[aria-expanded="false"]:after {
 	-ms-transition: 0.3s;
 	-o-transition: 0.3s;
 }
-
-/*a.collapse-readmore span {
-	text-decoration: 2px underline dashed #355276; 
-	font-style: italic;
-	border-bottom: 1px dashed #fff;
-	line-height: 2.3;
-}
-
-a.collapse-readmore {
-    display: block;
-    font-weight: 600;
-    line-height: 2;
-    text-align: center;
-    color: #355276;
-    width: 167px;
-    height: 40px;
-    background-color: transparent;
-    border-radius: 5px;
-    border: 2px solid #355276;
-    margin-top: 30px;
-}
-
-a.collapse-readmore span {
-	text-decoration: 2px underline dashed #355276;
-	font-style: italic;
-	border-bottom: 2px dashed #355276;
-}*/
 
 .category img {
 	width: 98px;
