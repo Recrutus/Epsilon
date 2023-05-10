@@ -723,11 +723,11 @@ p.card-text {
 }
 
 .carousel-control-prev-icon {
-	background-image: url("../img/carousel_control_prev_icon.png");
+	background-image: url("../img/svg/arrow_left.svg");
 }
 
 .carousel-control-next-icon {
-	background-image: url("../img/carousel_control_next_icon.png");
+	background-image: url("../img/svg/arrow_right.svg");
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
